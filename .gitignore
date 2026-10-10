@@ -1,0 +1,88 @@
+
+# ==========================================
+# Unity: generated cache and temporary files
+# ==========================================
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Unity cache and generated data
+/[Aa]ssets/**/[Aa]ssets[Bb]uilds/
+/[Aa]ssets/**/[Ss]cene[Tt]emplate[Bb]uilds/
+
+# Build output (folders in project root)
+[Bb]uild/
+[Bb]uilds/
+[Bb]uilds-*/
+
+# ==========================================
+# Unity generated IDE files
+# ==========================================
+
+.vs/
+.idea/
+.gradle/
+
+# Generated Visual Studio / Rider project files
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# ==========================================
+# Unity generated crash and debug files
+# ==========================================
+
+sysinfo.txt
+*.stackdump
+
+# ==========================================
+# Operating system files
+# ==========================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ==========================================
+# Optional: local editor settings
+# Uncomment if you do not want these in Git
+# ==========================================
+
+# .vscode/
+
+# ==========================================
+# Optional: local environment / secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+*.tif

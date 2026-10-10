@@ -1,0 +1,534 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3985010815240365227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3985010815240365222}
+  - component: {fileID: 8275264759304628543}
+  - component: {fileID: 4610800127188084869}
+  - component: {fileID: 3610897678716976065}
+  - component: {fileID: -7870416232258276795}
+  - component: {fileID: 3486158094288589070}
+  - component: {fileID: -2695674342360768335}
+  - component: {fileID: -8195572299963524579}
+  - component: {fileID: 6900189098020621186}
+  m_Layer: 22
+  m_Name: FishNetUMAHumanFemaleCharacterModel
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3985010815240365222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985010815240365227}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8275264759304628543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985010815240365227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcffb0a198605474c8a4d1c67c1515fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  context: {fileID: 0}
+  umaData: {fileID: 6900189098020621186}
+  defaultRendererAsset: {fileID: 0}
+  umaRecipe: {fileID: 0}
+  umaAdditionalRecipes:
+  - {fileID: 11400000, guid: 920d59ac577b2d9449aa36a4d9e86f10, type: 2}
+  umaGenerator: {fileID: 0}
+  animationController: {fileID: 9100000, guid: 547e6a8928ecb2d49b24c599db6d49c9, type: 2}
+  CharacterCreated:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterBegun:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterDnaUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+  AnimatorStateSaved:
+    m_PersistentCalls:
+      m_Calls: []
+  AnimatorStateRestored:
+    m_PersistentCalls:
+      m_Calls: []
+  DelayUnload: 2
+  BundleCheck: 1
+  KeepAnimatorController: 1
+  RecreateAnimatorOnRaceChange: 0
+  userInformation: 
+  RecipeUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+  WardrobeAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  WardrobeRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterStart:
+    m_PersistentCalls:
+      m_Calls: []
+  BuildCharacterBegun:
+    m_PersistentCalls:
+      m_Calls: []
+  SlotsHidden:
+    m_PersistentCalls:
+      m_Calls: []
+  WardrobeSuppressed:
+    m_PersistentCalls:
+      m_Calls: []
+  hide: 0
+  markNotReadable: 1
+  markDynamic: 1
+  loadBlendShapes: 0
+  loadOnlyUsedBlendshapes: 1
+  loadBlendshapeNormals: 1
+  loadBlendshapeTangents: 1
+  loadAllFrames: 1
+  forceKeepBlendshapes: []
+  keepAvatar: 0
+  rawAvatar: 0
+  keepPredefinedDNA: 0
+  activeRace:
+    name: HumanFemale
+  defaultChangeRaceOptions: 8
+  cacheCurrentState: 1
+  rebuildSkeleton: 0
+  alwaysRebuildSkeleton: 0
+  forceRebindAnimator: 0
+  preloadWardrobeRecipes:
+    loadDefaultRecipes: 1
+    recipes:
+    - _recipeName: FemaleDefaultUnderwear
+      _enabledInDefaultWardrobe: 1
+      _compatibleRaces:
+      - HumanFemale
+  raceAnimationControllers:
+    defaultAnimationController: {fileID: 9100000, guid: 547e6a8928ecb2d49b24c599db6d49c9,
+      type: 2}
+    animators: []
+    dynamicallyAddFromResources: 0
+    resourcesFolderPath: 
+  characterColors:
+    _colors:
+    - name: Skin
+      channelMask:
+      - {r: 0.7924528, g: 0.6495863, b: 0.35510856, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      channelAdditiveMask:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      PropertyBlock:
+        alwaysUpdate: 0
+        alwaysUpdateParms: 0
+        serializedProperties: []
+      foldout: 0
+      showAdvanced: 0
+      isBaseColor: 1
+      deleteThis: 0
+      colorsExpanded: 0
+      propertiesExpanded: 0
+      displayColor: {r: 1, g: 1, b: 1, a: 1}
+      _name: 
+      _color: {r: 1, g: 1, b: 1, a: 1}
+      _metallicGloss: {r: 0, g: 0, b: 0, a: 0}
+      Raw: 0
+      valuesConverted: 0
+    - name: Hair
+      channelMask:
+      - {r: 0.3679245, g: 0.36348748, b: 0.23082057, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      channelAdditiveMask:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      PropertyBlock:
+        alwaysUpdate: 0
+        alwaysUpdateParms: 0
+        serializedProperties: []
+      foldout: 0
+      showAdvanced: 0
+      isBaseColor: 1
+      deleteThis: 0
+      colorsExpanded: 0
+      propertiesExpanded: 0
+      displayColor: {r: 1, g: 1, b: 1, a: 1}
+      _name: 
+      _color: {r: 1, g: 1, b: 1, a: 1}
+      _metallicGloss: {r: 0, g: 0, b: 0, a: 0}
+      Raw: 0
+      valuesConverted: 0
+    - name: Eyes
+      channelMask:
+      - {r: 0.24959952, g: 0.31616318, b: 0.745283, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      channelAdditiveMask:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      PropertyBlock:
+        alwaysUpdate: 0
+        alwaysUpdateParms: 0
+        serializedProperties: []
+      foldout: 0
+      showAdvanced: 0
+      isBaseColor: 1
+      deleteThis: 0
+      colorsExpanded: 0
+      propertiesExpanded: 0
+      displayColor: {r: 1, g: 1, b: 1, a: 1}
+      _name: 
+      _color: {r: 1, g: 1, b: 1, a: 1}
+      _metallicGloss: {r: 0, g: 0, b: 0, a: 0}
+      Raw: 0
+      valuesConverted: 0
+    - name: Undies
+      channelMask:
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      channelAdditiveMask:
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      - {r: 0, g: 0, b: 0, a: 0}
+      PropertyBlock:
+        alwaysUpdate: 0
+        alwaysUpdateParms: 0
+        serializedProperties: []
+      foldout: 0
+      showAdvanced: 0
+      isBaseColor: 0
+      deleteThis: 0
+      colorsExpanded: 0
+      propertiesExpanded: 0
+      displayColor: {r: 1, g: 1, b: 1, a: 1}
+      _name: 
+      _color: {r: 1, g: 1, b: 1, a: 1}
+      _metallicGloss: {r: 0, g: 0, b: 0, a: 0}
+      Raw: 0
+      valuesConverted: 0
+  predefinedDNA:
+    PreloadValues: []
+  loadPathType: 0
+  loadPath: 
+  loadFilename: 
+  loadString: 
+  loadFileOnStart: 0
+  forceSlotMaterials: 0
+  AtlasResolutionScale: 1
+  defaultLoadOptions: -1
+  savePathType: 0
+  savePath: 
+  saveFilename: 
+  makeUniqueFilename: 0
+  ensureSharedColors: 0
+  defaultSaveOptions: -1
+  BoundsOffset: {x: 0, y: 0, z: 0}
+  editorTimeGeneration: 0
+  showPlaceholder: 1
+  previewModel: 1
+  customModel: {fileID: 0}
+  customRotation: {x: 0, y: 0, z: 0}
+  previewColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  _buildCharacterEnabled: 1
+  nextBuildSlotsOnly: 0
+  debugVertexes: 1
+--- !u!95 &4610800127188084869
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985010815240365227}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 547e6a8928ecb2d49b24c599db6d49c9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3610897678716976065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985010815240365227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ea9524f26d57548a9f99b6e3da50f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UMA_Core::UMA.CharacterSystem.DCARendererManager
+  RendererElements:
+  - rendererAssets:
+    - {fileID: 11400000, guid: cd467bdfd54a99d4cb3e7ae20b2ea463, type: 2}
+    slotAssets:
+    - {fileID: 11400000, guid: 1e7ddc02cd51b41488288a4982ca4274, type: 2}
+    - {fileID: 11400000, guid: 0bfd4db5ca8f3f44e912a809539ed57c, type: 2}
+    - {fileID: 11400000, guid: 1ce0f12b23c3c9941a8f257ae9ddd78f, type: 2}
+    - {fileID: 11400000, guid: 58e5a93186f923c4ca7910365d807714, type: 2}
+    - {fileID: 11400000, guid: 407823accaae39a4a902c6e4b2bfa383, type: 2}
+    wardrobeSlots:
+    - Helmet
+    - Ears
+    - Beard
+    - Eyebrows
+    - Hair
+    - Eyes
+    - Face
+  RenderersEnabled: 0
+  showHelp: 1
+--- !u!114 &-7870416232258276795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985010815240365227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b716c41e9b56b4baafaf13a523ba2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _localLevelOfDetailCalculationType: 0
+  _useLevelOfDetail: 0
+  _useRootLevelOfDetail: 1
+  NetworkObserver: {fileID: 0}
+  _enablePrediction: 0
+  _predictionType: 0
+  _localReconcileCorrectionType: 2
+  _graphicalObject: {fileID: 0}
+  _detachGraphicalObject: 0
+  _enableStateForwarding: 1
+  _networkTransform: {fileID: 0}
+  _ownerInterpolation: 1
+  _ownerSmoothedProperties: 4294967295
+  _adaptiveInterpolation: 3
+  _spectatorSmoothedProperties: 4294967295
+  _spectatorInterpolation: 2
+  _enableTeleport: 0
+  _teleportThreshold: 1
+  <PrefabId>k__BackingField: 49
+  <SpawnableCollectionId>k__BackingField: 0
+  <AssetPathHash>k__BackingField: 17999267371320128642
+  SceneId: 0
+  SerializedTransformProperties:
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 1}
+    Scale: {x: 1, y: 1, z: 1}
+    IsValid: 1
+  <IsNested>k__BackingField: 0
+  WasActiveDuringEdit: 0
+  WasActiveDuringEdit_Set1: 1
+  <ComponentIndex>k__BackingField: 0
+  <PredictedSpawn>k__BackingField: {fileID: 0}
+  <PredictedOwner>k__BackingField: {fileID: 0}
+  NetworkBehaviours:
+  - {fileID: 3486158094288589070}
+  - {fileID: -8195572299963524579}
+  InitializedParentNetworkBehaviour: {fileID: 0}
+  InitializedNestedNetworkObjects: []
+  RuntimeParentNetworkBehaviour: {fileID: 0}
+  RuntimeChildNetworkBehaviours: []
+  _isNetworked: 1
+  _isSpawnable: 1
+  _isGlobal: 0
+  _initializeOrder: 0
+  _preventDespawnOnDisconnect: 0
+  _defaultDespawnType: 0
+  _initializedTimestamp: -8584263366996988213
+--- !u!114 &3486158094288589070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985010815240365227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fc7cb308a137f41b18fdb48773834f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _componentIndexCache: 0
+  _addedNetworkObject: {fileID: -7870416232258276795}
+  _networkObjectCache: {fileID: -7870416232258276795}
+--- !u!114 &-2695674342360768335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985010815240365227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2361c564b0f77b94dbc549ff9caa72a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FishNet.Runtime::FishNet.Component.Transforming.Beta.OfflineTickSmoother
+  _automaticallyInitialize: 0
+  _initializationSettings:
+    TargetTransform: {fileID: 0}
+    DetachOnStart: 0
+    AttachOnStop: 0
+  _movementSettings:
+    EnableTeleport: 0
+    TeleportThreshold: 0
+    AdaptiveInterpolationValue: 0
+    InterpolationValue: 1
+    SmoothedProperties: 4294967295
+    SnapNonSmoothedProperties: 0
+--- !u!114 &-8195572299963524579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985010815240365227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2836e36774ca1c4bbbee976e17b649c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FishNet.Runtime::FishNet.Component.Transforming.NetworkTransform
+  _componentIndexCache: 1
+  _addedNetworkObject: {fileID: -7870416232258276795}
+  _networkObjectCache: {fileID: -7870416232258276795}
+  _componentConfiguration: 0
+  _synchronizeParent: 0
+  _packing:
+    Position: 1
+    Rotation: 1
+    Scale: 0
+  _useScaledTime: 1
+  _interpolation: 1
+  _extrapolation: 2
+  _enableTeleport: 0
+  _teleportThreshold: 1
+  _clientAuthoritative: 0
+  _sendToOwner: 0
+  _interval: 1
+  _synchronizePosition: 1
+  _positionSensitivity: 0.001
+  _positionSnapping:
+    X: 0
+    Y: 0
+    Z: 0
+  _synchronizeRotation: 1
+  _rotationSnapping:
+    X: 0
+    Y: 0
+    Z: 0
+  _synchronizeScale: 1
+  _scaleSensitivity: 0.001
+  _scaleSnapping:
+    X: 0
+    Y: 0
+    Z: 0
+--- !u!114 &6900189098020621186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985010815240365227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ee0e75ac30e964b8dcd0ad5f953c15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UMA_Core::UMA.UMAData
+  renderers: []
+  userInformation: 
+  rawAvatar: 0
+  raceChanged: 0
+  hideRenderers: 0
+  umaGenerator: {fileID: 0}
+  OverrideTpose: {fileID: 0}
+  atlasResolutionScale: 1
+  ForceRebindAnimator: 0
+  isMeshDirty: 0
+  isShapeDirty: 0
+  isTextureDirty: 0
+  isAtlasDirty: 0
+  markNotReadable: 1
+  markDynamic: 1
+  animationController: {fileID: 0}
+  CharacterCreated:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterBeforeUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterBeforeDnaUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterDnaUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+  CharacterBegun:
+    m_PersistentCalls:
+      m_Calls: []
+  AnimatorStateSaved:
+    m_PersistentCalls:
+      m_Calls: []
+  AnimatorStateRestored:
+    m_PersistentCalls:
+      m_Calls: []
+  PreUpdateUMABody:
+    m_PersistentCalls:
+      m_Calls: []
+  umaRoot: {fileID: 0}
+  _umaRecipe:
+    raceData: {fileID: 0}
+    dnaValues: []
+    slotDataList: []
+    sharedColors: []
+  animator: {fileID: 0}
+  KeepAvatar: 0
+  characterHeight: 2
+  characterRadius: 0.25
+  characterMass: 50
